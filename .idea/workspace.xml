@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+    <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="added reading of matrix.txt file">
+      <change afterPath="$PROJECT_DIR$/src/impl/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impl/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/PathFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +55,13 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vhistoria\IdeaProjects\EaseSolutionsChallenge\src" />
-      <recent name="C:\Users\vhistoria\IdeaProjects\EaseSolutionsChallenge\res" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vhistoria\IdeaProjects\EaseSolutionsChallenge\src" />
       <recent name="C:\Users\vhistoria\IdeaProjects\EaseSolutionsChallenge\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vhistoria\IdeaProjects\EaseSolutionsChallenge\src" />
+      <recent name="C:\Users\vhistoria\IdeaProjects\EaseSolutionsChallenge\res" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,7 +93,31 @@
       <option name="presentableId" value="Default" />
       <updated>1601655213353</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated gitignore">
+      <created>1601658426885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601658426885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated gitignore" />
+    <MESSAGE value="added reading of matrix.txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added reading of matrix.txt file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1601656875760">
@@ -89,22 +136,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="229" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601658163495" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1601657599520">
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom" timestamp="1601703216707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601657599520" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1601657599519">
+    <state width="1340" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216707" />
+    <state width="1340" height="324" key="GridCell.Tab.0.center" timestamp="1601703216707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601657599519" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1601657599519">
+    <state width="1340" height="324" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216707" />
+    <state width="1340" height="324" key="GridCell.Tab.0.left" timestamp="1601703216707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601657599519" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1601657599520">
+    <state width="1340" height="324" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216707" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right" timestamp="1601703216707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601657599520" />
+    <state width="1340" height="324" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216707" />
+    <state width="1340" height="324" key="GridCell.Tab.1.bottom" timestamp="1601703216708">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216708" />
+    <state width="1340" height="324" key="GridCell.Tab.1.center" timestamp="1601703216708">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216708" />
+    <state width="1340" height="324" key="GridCell.Tab.1.left" timestamp="1601703216707">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216707" />
+    <state width="1340" height="324" key="GridCell.Tab.1.right" timestamp="1601703216708">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="324" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601703216708" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1601657227617">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -117,5 +180,24 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601657833084" />
+    <state x="616" y="245" key="run.anything.popup" timestamp="1601700657462">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601700657462" />
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1601700659954">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601700659954" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
