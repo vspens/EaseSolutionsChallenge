@@ -3,9 +3,9 @@ package object;
 import java.util.LinkedList;
 
 public class PathInfo implements Comparable<PathInfo> {
-    private int length;
-    private int steep;
-    private LinkedList<cell> cellList;
+    private int length = 0;
+    private int steep = 0;
+    private LinkedList<Cell> cellList = new LinkedList<Cell>();
 
     public int getLength() {
         return length;
@@ -23,16 +23,22 @@ public class PathInfo implements Comparable<PathInfo> {
         this.steep = steep;
     }
 
-    public LinkedList<cell> getCellList() {
+    public LinkedList<Cell> getCellList() {
         return cellList;
     }
 
-    public void setCellList(LinkedList<cell> cellList) {
+    public void setCellList(LinkedList<Cell> cellList) {
         this.cellList = cellList;
     }
 
     @Override
-    public int compareTo(PathInfo o) {
-        return 0;
+    public int compareTo(PathInfo pathInfo) {
+        int ret = -1;
+
+        if(this.length > pathInfo.length && this.steep > pathInfo.steep){
+            ret = 1;
+        }
+
+        return ret;
     }
 }
