@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="added reading of matrix.txt file">
+    <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="Added partial logic&#10;Movements not final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/PathInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/PathInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/cell.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/impl/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/PathFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/PathInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/PathInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Cell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601703383583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added partial logic&#10;Movements not final">
+      <created>1601834407963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601834407963</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,11 +125,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="added reading of matrix.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added reading of matrix.txt file" />
+    <MESSAGE value="Added partial logic&#10;Movements not final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added partial logic&#10;Movements not final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1601656875760">
@@ -143,46 +150,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="229" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601658163495" />
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1601833882746">
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1602078110758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601833882746" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1601833882746">
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
+    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1602078110758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601833882746" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1601833882746">
+    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
+    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1602078110758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601833882746" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1601833882746">
+    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
+    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1602078110758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601833882746" />
-    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1601833883246">
+    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
+    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1602078111345">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601833883246" />
-    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1601833883246">
+    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111345" />
+    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1602078111344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601833883246" />
-    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1601833883246">
+    <state width="1877" height="293" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111344" />
+    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1602078111344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601833883246" />
-    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1601833883246">
+    <state width="1877" height="293" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111344" />
+    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1602078111344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601833883246" />
+    <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111344" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1601657227617">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601657227617" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601703399897">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601834416160">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601703399897" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601834416160" />
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601657833084">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -201,23 +208,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>23</line>
+          <line>26</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>74</line>
+          <line>83</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
