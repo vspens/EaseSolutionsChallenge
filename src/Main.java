@@ -6,6 +6,7 @@ public class Main {
 
         try {
             PathFinder pf = new PathFinder();
+            pf.getPathInfo();
         }catch(Exception e){
             System.out.print(e.getMessage());
         }

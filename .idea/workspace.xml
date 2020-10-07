@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="Added partial logic&#10;Movements not final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/PathInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/PathInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/object/cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impl/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/impl/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/PathFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601834407963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added partial logic&#10;Movements not final">
+      <created>1602078929596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602078929596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +146,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1601656875760" />
+    <state width="405" height="466" key="DebuggerActiveHint" timestamp="1602094379841">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="405" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1602094379841" />
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1601658146095">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -150,46 +162,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="229" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601658163495" />
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1602078110758">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1602094652839">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
-    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1602078110758">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602094652839" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1602094652838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
-    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1602078110758">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602094652838" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1602094652838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
-    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1602078110758">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602094652838" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1602094652839">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602078110758" />
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1602078111345">
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602094652839" />
+    <state width="1877" height="321" key="GridCell.Tab.1.bottom" timestamp="1602094653245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111345" />
-    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1602078111344">
+    <state width="1877" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602094653245" />
+    <state width="1877" height="321" key="GridCell.Tab.1.center" timestamp="1602094653245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111344" />
-    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1602078111344">
+    <state width="1877" height="321" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602094653245" />
+    <state width="1877" height="321" key="GridCell.Tab.1.left" timestamp="1602094653245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111344" />
-    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1602078111344">
+    <state width="1877" height="321" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602094653245" />
+    <state width="1877" height="321" key="GridCell.Tab.1.right" timestamp="1602094653245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602078111344" />
+    <state width="1877" height="321" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602094653245" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1601657227617">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601657227617" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601834416160">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602078932998">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601834416160" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602078932998" />
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601657833084">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -198,30 +210,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601700657462" />
-    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1601700659954">
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup" timestamp="1602088075935">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601700659954" />
+    <state x="623" y="244" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602088075935" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="16" />
+          <line>40</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="pInfoList" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

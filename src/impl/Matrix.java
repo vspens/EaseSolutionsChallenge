@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Matrix {
 
-    public static int[][] GetGivenMatrix() throws Exception{
+    public static int[][] getGivenMatrix() throws Exception{
         int[][] matrix ;
 
         Scanner scan = new Scanner(new File("res/matrix.txt"));
