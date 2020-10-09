@@ -16,15 +16,17 @@
         <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="updated movement but gets almost the right result (not final)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/PathFinder.java" afterDir="false" />
-    </list>
+    <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="updated movement but gets almost the right result (not final)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602095210189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated movement but gets almost the right result (not final)">
+      <created>1602178376533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602178376533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +143,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -150,6 +171,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated movement but gets almost the right result (not final)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602226434434">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602226434434" />
     <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1601656875760">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -158,62 +183,66 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="476" height="674" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1602177194975" />
-    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1601658146095">
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1602230719693">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601658146095" />
-    <state x="803" y="422" key="Github.ShareDialog" timestamp="1601658155272">
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602230719693" />
+    <state x="803" y="422" key="Github.ShareDialog" timestamp="1602226668084">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="803" y="422" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601658155272" />
+    <state x="803" y="422" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602226668084" />
     <state x="667" y="229" key="Github.UntrackedFilesDialog" timestamp="1601658163495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="229" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601658163495" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1602178354786">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1602235737425">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602178354786" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1602178354785">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737425" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1602235737424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602178354785" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1602178354785">
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737424" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1602235737424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602178354785" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1602178354785">
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737424" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1602235737425">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602178354785" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1602177573372">
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737425" />
+    <state width="1877" height="378" key="GridCell.Tab.1.bottom" timestamp="1602235737836">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602177573372" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1602177573371">
+    <state width="1877" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737836" />
+    <state width="1877" height="378" key="GridCell.Tab.1.center" timestamp="1602235737835">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602177573371" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1602177573371">
+    <state width="1877" height="378" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737835" />
+    <state width="1877" height="378" key="GridCell.Tab.1.left" timestamp="1602235737835">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602177573371" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1602177573371">
+    <state width="1877" height="378" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737835" />
+    <state width="1877" height="378" key="GridCell.Tab.1.right" timestamp="1602235737835">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602177573371" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1601657227617">
+    <state width="1877" height="378" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602235737835" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1602257664114">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601657227617" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602095215646">
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602257664114" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602178382641">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602095215646" />
-    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601657833084">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602178382641" />
+    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602226576657">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601657833084" />
+    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602226576657" />
+    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602226785266">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602226785266" />
     <state x="616" y="245" key="run.anything.popup" timestamp="1601700657462">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -231,11 +260,17 @@
           <line>45</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/impl/PathFinder.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="pInfoList" />
+        <watch expression="pInfoList.get(1)" />
       </configuration>
     </watches-manager>
   </component>
