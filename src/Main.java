@@ -5,7 +5,7 @@ import object.PathInfo;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         try {
             int[][] matrix = Matrix.getGivenMatrix();

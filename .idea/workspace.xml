@@ -27,13 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="629e83c1-5587-4e0f-a0ca-8abd4e65b724" name="Default Changelist" comment="done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EaseSolutionsChallenge/impl/PathFinder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/PathFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602257691604</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done">
+      <created>1602270988134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602270988134</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,10 +248,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602257664114" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602178382641">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602270989988">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602178382641" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602270989988" />
     <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602226576657">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
