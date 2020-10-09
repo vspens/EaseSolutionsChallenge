@@ -61,6 +61,7 @@ public class PathFinder {
         int steep = 0;
         String direction = "none";
         Cell cell;
+        boolean flag = false;
 
         cell = new Cell(row, col);
 
@@ -102,37 +103,38 @@ public class PathFinder {
         }
 
         if (direction.split(",").length > 1) {
-            pInfoToAdd = new PathInfo();
-            pInfoToAdd.getCellList().addAll(pInfo.getCellList().subList(0, pInfo.getCellList().size()));
+            flag = true;
             for (int i = 0; i < direction.split(",").length - 1; i++){
+                pInfoToAdd = new PathInfo();
+                pInfoToAdd.getCellList().addAll(pInfo.getCellList().subList(0, pInfo.getCellList().size()));
                 pInfoList.add(pInfoToAdd);
+                pInfo = pInfoToAdd;
             }
-            pInfo = pInfoToAdd;
         }
 
         if (direction.contains("right")) {
-            if (row == rowTracker && col == colTracker){
+            if (row == rowTracker && col == colTracker || flag){
                 index++;
             }
             moveToNextCell("right", matrix, cell, pInfo, pInfoList);
         }
 
         if (direction.contains("left")) {
-            if (row == rowTracker && col == colTracker){
+            if (row == rowTracker && col == colTracker || flag){
                 index++;
             }
             moveToNextCell("left", matrix, cell, pInfo, pInfoList);
         }
 
         if (direction.contains("down")) {
-            if (row == rowTracker && col == colTracker){
+            if (row == rowTracker && col == colTracker || flag){
                 index++;
             }
             moveToNextCell("down", matrix, cell, pInfo, pInfoList);
         }
 
         if (direction.contains("up")) {
-            if (row == rowTracker && col == colTracker){
+            if (row == rowTracker && col == colTracker || flag){
                 index++;
             }
             moveToNextCell("up", matrix, cell, pInfo, pInfoList);
