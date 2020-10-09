@@ -8,7 +8,7 @@ public class Matrix {
     public static int[][] getGivenMatrix() throws Exception{
         int[][] matrix ;
 
-        Scanner scan = new Scanner(new File("res/matrix.txt"));
+        Scanner scan = new Scanner(new File("res/map.txt"));
 
         String line = null;
         int col = 0;

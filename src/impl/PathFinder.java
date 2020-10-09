@@ -14,13 +14,12 @@ public class PathFinder {
     private int colTracker;
     private int index = -1;
 
-    public PathInfo getPathInfo() throws Exception {
+    public PathInfo getPathInfo(int[][] matrix) {
 
         LinkedList<PathInfo> pathInfoList = new LinkedList<>();
         PathInfo pathInfo = new PathInfo();
         PathInfo pathInfoCandidate = null;
         PathInfo pathInfoTemp;
-        int[][] matrix = Matrix.getGivenMatrix();
 
         for(int row = 0; row < matrix.length; row++){
             for(int col = 0; col < matrix.length; col++){
@@ -58,7 +57,6 @@ public class PathFinder {
     private void getPath(int[][] matrix, int row, int col, List<PathInfo> pInfoList, PathInfo pathInfo){
         PathInfo pInfo = pathInfo;
         PathInfo pInfoToAdd;
-        int steep = 0;
         String direction = "none";
         Cell cell;
         boolean flag = false;
@@ -91,7 +89,6 @@ public class PathFinder {
             } else {
                 direction = direction.concat(",down");
             }
-
         }
 
         if(row - 1 >= 0 && matrix[row - 1][col] < matrix[row][col]){
@@ -102,9 +99,17 @@ public class PathFinder {
             }
         }
 
-        if (direction.split(",").length > 1) {
+        int len = direction.split(",").length;
+        if (len > 1) {
             flag = true;
-            for (int i = 0; i < direction.split(",").length - 1; i++){
+
+            if (index != -1) {
+                rowTracker = row;
+                colTracker = col;
+                index--;
+            }
+
+            for (int i = 0; i < len - 1; i++){
                 pInfoToAdd = new PathInfo();
                 pInfoToAdd.getCellList().addAll(pInfo.getCellList().subList(0, pInfo.getCellList().size()));
                 pInfoList.add(pInfoToAdd);
@@ -113,34 +118,40 @@ public class PathFinder {
         }
 
         if (direction.contains("right")) {
-            if (row == rowTracker && col == colTracker || flag){
-                index++;
+            if (row == rowTracker && col == colTracker){
+                if (flag || index == -1) {
+                    index++;
+                }
             }
             moveToNextCell("right", matrix, cell, pInfo, pInfoList);
         }
 
         if (direction.contains("left")) {
-            if (row == rowTracker && col == colTracker || flag){
-                index++;
+            if (row == rowTracker && col == colTracker){
+                if (flag || index == -1) {
+                    index++;
+                }
             }
             moveToNextCell("left", matrix, cell, pInfo, pInfoList);
         }
 
         if (direction.contains("down")) {
-            if (row == rowTracker && col == colTracker || flag){
-                index++;
+            if (row == rowTracker && col == colTracker){
+                if (flag || index == -1) {
+                    index++;
+                }
             }
             moveToNextCell("down", matrix, cell, pInfo, pInfoList);
         }
 
         if (direction.contains("up")) {
-            if (row == rowTracker && col == colTracker || flag){
-                index++;
+            if (row == rowTracker && col == colTracker){
+                if (flag || index == -1) {
+                    index++;
+                }
             }
             moveToNextCell("up", matrix, cell, pInfo, pInfoList);
         }
-
-
     }
 
     private void moveToNextCell(String direction, int[][] matrix, Cell cell, PathInfo pathInfo, List<PathInfo> pathInfoList){
